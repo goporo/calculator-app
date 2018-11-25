@@ -6,7 +6,7 @@ window.onload = function() {
 
   // clicking on each button
   buttons.addEventListener('click', function(e) {
-
+alert(helo);
     if (e.target.nodeName === 'LI') {
 
       // get value of button
